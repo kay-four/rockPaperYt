@@ -16,39 +16,18 @@ else:
    else:
       print("Player(",player,") : CPU(",computer,")")
     
-if player != computer:
- if player == "R":
-   if computer== "P":
-      print("Computer wins! It picked: ",computer)
-   elif computer == "S":
-      print("You win! Computer picked: ",computer) 
- elif player == "P":
-   if computer== "S":
-      print("Computer wins! It picked: ",computer)
-   elif computer== "R":
-      print("You win! Computer picked: ",computer)
- elif player == "S":
-   if computer== "R":
-      print("Computer wins! It picked: ",computer) 
-   elif computer == "P":
-      print("You win! Computer picked",computer)
-
-   
-
-
-# def is_it_a_tie(computer,player):
-#  if player == computer:
-   #   print("Tie!/n Play again")
-      #  take_input()
-
-
-
-
-
-
- 
-        
-# print("The computer picked: ",computer)
-# print("Player selected: ",player)
- 
- 
+if player == "R":
+  if computer== "P":
+     print("Computer wins! It picked: ",computer)
+  elif computer == "S":
+     print("You win! Computer picked: ",computer) 
+elif player == "P":
+  if computer== "S":
+     print("Computer wins! It picked: ",computer)
+  elif computer== "R":
+     print("You win! Computer picked: ",computer)
+elif player == "S":
+  if computer== "R":
+     print("Computer wins! It picked: ",computer) 
+  elif computer == "P":
+     print("You win! Computer picked",computer) 
